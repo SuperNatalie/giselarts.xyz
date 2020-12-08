@@ -15,7 +15,9 @@ h2, p {
     margin-top: 0;
 }
 
-a:hover, a.active { color: #309AFD; }
+
+
+a:hover, a.active { color: #DEADAD; }
 
 .tm-btn {
     padding: 10px 40px;
@@ -92,7 +94,6 @@ img { max-width: 100%; }
 body, ul {
     margin: 0;
     padding: 0;
-
 }
 
 a { 
@@ -105,6 +106,7 @@ a {
 .tm-site-header {
     padding: 60px 70px 30px;
 }
+
 
 .tm-tagline {
     font-size: 1.5rem;   
@@ -143,6 +145,11 @@ a {
     font-family: 'Calligraffitti', cursive;
     font-size: 1.5em ;
 }
+
+.tm-nav-item :nth-child(1):hover {
+    color:#DEADAD ;
+}
+
 
 .tm-nav-link {
     background-color: white;
@@ -188,6 +195,7 @@ opacity: 0.9;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto 135px;
+    scroll-behavior: smooth;
 }
 
 .tm-container p {

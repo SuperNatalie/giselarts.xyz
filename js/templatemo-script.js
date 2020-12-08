@@ -4,12 +4,14 @@
  * CSS3 animation effects for Magnific Popup: https://codepen.io/dimsemenov/pen/GAIkt
  */
 
+/* Get Sheet Done */
+
 
 
 
 $(document).ready(function () {
 
-    /*************** Gallery ******************/
+    /************** Gallery ******************/
     
     var itemSelector = ".tm-gallery-item"; 
     var responsiveIsotope = [ [480, 4], [720, 6] ];
@@ -32,6 +34,7 @@ $(document).ready(function () {
                 $container.isotope('layout');
             });
         }  
+        
     }
 
     /************** Popup *****************/   
@@ -87,6 +90,7 @@ $(document).ready(function () {
         filterValue += ('.'+wordPage);
         changeFilter(filterValue);
     }
+    
 
     // determine page breaks based on window width and preset values
     function defineItemsPerPage() {
@@ -228,7 +232,12 @@ $(document).ready(function () {
         tmVideo.css('height', newVidHeight);
         tmVideo.css('margin-left', marginLeft);
         tmVideo.css('margin-top', marginTop);
+    
     }
+    
+    // Play Video in Slow-Motion// 
+    document.getElementById('tm-video').playbackRate = .7;
+
 
     setVideoSize();
 
