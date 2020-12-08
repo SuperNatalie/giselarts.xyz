@@ -34,9 +34,8 @@ $(document).ready(function () {
                 $container.isotope('layout');
             });
         }  
-        
     }
-
+  
     /************** Popup *****************/   
 
     $('#inline-popups').magnificPopup({
@@ -281,7 +280,7 @@ $(document).ready(function () {
 
         $('.tm-intro-img').attr('src', img);
     }
-
-
+    
     
 });
+

@@ -1,12 +1,12 @@
-    
+    var sheetPic = document.getElementById("galleryContainer");
         
         GetSheetDone.labeledCols(
         "1zLUp-zc3MEn845mynUHoCBDPKeGPF7IGL_cC2pZ8gOI",
         1
         ).then((sheet) => {
         for (const product of sheet.data){
-        document.getElementById("tm-gallery-container").innerHTML += `
-        <figure class="effect-chico tm-gallery-item menschen">
+        sheetPic.innerHTML += `
+        <figure class="effect-chico tm-gallery-item ${product.category}">
         <img src="${product.bildlink}" alt="Image"/>
         <figcaption>
         <p>${product.bildtitel}</p>				
@@ -15,7 +15,9 @@
         }
         })
 
-  console.log("tm-gallery-container");
+        
+        console.log(sheetPic)
+
 
           
 
