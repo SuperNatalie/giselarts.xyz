@@ -86,6 +86,7 @@ div { box-sizing: border-box;}
 .tm-bg-gray { background-color: #F1F2F3; }
 .tm-bg-rose { background-color: #FAE3E3; }
 .tm-color-darkrose { background-color: #DEADAD;}
+.tm-font-color-darkrose {color: #DEADAD;}
 
 blockquote { margin: 0 0 30px 10px; }
 img { max-width: 100%; }
@@ -282,7 +283,7 @@ button.mfp-arrow {
 
 /* Intro */
 .tm-intro-img {
-    max-width: 300px;
+    max-width: auto;
     max-height: 600px;
 }
 
