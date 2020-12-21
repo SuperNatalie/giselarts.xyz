@@ -567,6 +567,7 @@ address {
     font-style: normal;
 }
 
+
 @media (max-width: 850px) {
     .tm-contact-row {
         flex-direction: column;
