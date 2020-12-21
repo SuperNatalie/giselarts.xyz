@@ -282,7 +282,8 @@ button.mfp-arrow {
 }
 
 /* Intro */
-.tm-intro-img {
+.tm-intro-img,
+.tm-contact-img {
     max-width: auto;
     max-height: 600px;
 }
@@ -705,7 +706,8 @@ address {
         flex-direction: column;
     }
 
-    .tm-intro-img {
+    .tm-intro-img, 
+    .tm-contact-img {
         max-width: 100%;
         max-height: none;
     }

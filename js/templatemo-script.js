@@ -198,6 +198,8 @@ $(document).ready(function () {
           setPagination();
           goToPage(1);
         });
+
+
         /************** Video background *********/
         function setVideoSize() {
           const vidWidth = 1280;
@@ -258,5 +260,16 @@ $(document).ready(function () {
           }
           $(".tm-intro-img").attr("src", img);
         }
+
+        function adjustIntroImg() {
+          var img = "img/";
+          if (window.innerWidth > 650) {
+            img += "contact.jpg";
+          } else {
+            img += "contact.jpg";
+          }
+          $(".tm-contact-img").attr("src", img);
+        }
+
       });
   });
