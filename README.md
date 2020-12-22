@@ -1,7 +1,8 @@
 # Giselarts Website
 
-This Website is built with the help of a nice template: 
-https://templatemo.com/tm-554-ocean-vibes plus some personal code to personalize the Website.
+My first real hosted website for an wonderful artist: My Mum! 
+https://supernatalie.github.io/giselarts.xyz/
+https://www.giselarts.xyz
 
 ## Built with
 
@@ -9,7 +10,9 @@ HTML/ CSS
 JS / JQuery
 
 FontAwesome
-Getsheetdone (in progress)
+Getsheetdone 
+
+https://templatemo.com/tm-554-ocean-vibes 
 
 ## Questions? 
 
