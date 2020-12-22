@@ -1,369 +1,561 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Giselarts - Malerei und mehr</title>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap"
+      rel="stylesheet"
+    />
     <!-- https://fonts.google.com/ -->
-    <link rel="stylesheet" href="fontawesome/css/all.min.css"> <!-- https://fontawesome.com/ -->
-    <link rel="stylesheet" href="css/magnific-popup.css"> 
-    <link rel="stylesheet" href="css/templatemo-ocean-vibes.css"> 
-<!--
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/templatemo-ocean-vibes.css" />
+    <!--
     
 TemplateMo 554 Ocean Vibes
 
 https://templatemo.com/tm-554-ocean-vibes
 
 -->
-</head>
-<body class="tm-bg-rose">
-    <header class="tm-site-header" >
-        <p class="tm-mt-0 tm-mb-15"><span class="tm-color-gray font-handwrite"> <a href="#zitat"> Giselarts </a></span> </p>
-        <em class="tm-tagline tm-color-red" >Malerei und mehr </em>
-        <div class="triangle triangle"></div>
-        <div class="triangle triangle-small"></div>
+  </head>
+  <body class="tm-bg-rose">
+    <header class="tm-site-header">
+      <p class="tm-mt-0 tm-mb-15">
+        <span class="tm-color-gray font-handwrite">
+          <a href="#zitat"> Giselarts </a></span
+        >
+      </p>
+      <em class="tm-tagline tm-color-red">Malerei und mehr </em>
+      <div class="triangle triangle"></div>
+      <div class="triangle triangle-small"></div>
     </header>
 
     <!-- Video banner 400 px height -->
-    
+
     <div id="tm-video-container">
-        <video autoplay muted loop id="tm-video">
-            <source src="video/background-video.mp4" type="video/mp4">
-        </video>  
-        <i id="tm-video-control-button" class="fas fa-pause"></i>
-  
+      <video autoplay muted loop id="tm-video">
+        <source src="video/background-video.mp4" type="video/mp4" />
+      </video>
+      <i id="tm-video-control-button" class="fas fa-pause"></i>
     </div>
-   
 
     <div class="tm-container">
-        <p id="zitat">"Jedes Kind ist ein Künstler. Das Problem ist nur, ein Künstler zu bleiben, während man erwachsen wird." <br> -Pablo Picasso</p>
-        <nav class="tm-main-nav">
-            <ul id="inline-popups">
-                <li class="tm-nav-item"> 
-                    <p>Über mich</p>
-                    <a href="#intro" data-effect="mfp-move-from-top" class="tm-nav-link">
-                    
-                        <img src="./img/gisela-streich.jpg" alt="about">
-                     <p><br>Warum ich male und immer wieder neue Stile ausprobiere? Hier erfährst du etwas über mich und meinen künstlerischen Werdegang.</p>
-                    </a>                
-                </li>
-                <li class="tm-nav-item">
-                    <p>Galerie</p>
-                    <a href="#gallery" data-effect="mfp-move-from-top" class="tm-nav-link" id="tm-gallery-link">
-                        
-                       <img src="./img/blumen.png" alt="akt"> 
-                       <p><br>In der neuen Galerie findest du meine Werke aus veschiedenen Rubriken wie z.B. Menschen, Landschaft und Abstrakt. </p>
-                    </a>
-                </li>
-                <li class="tm-nav-item">
-                    <p>Aktuelles</p>
-                    <a href="#testimonials" data-effect="mfp-move-from-top" class="tm-nav-link">
-                      <img src="./img/update.jpg" alt="update">
-                      <p><br>Hier ist sie, meine neue Homepage. Außerdem gibt es gibt es wieder neue Bilder zu sehen und ich stelle mit den Montagsmalerinnen wieder aus!</p>
-                    </a>
-                </li>
-                <li class="tm-nav-item">
-                    <p>Austellungen</p>
-                    <a href="#about" data-effect="mfp-move-from-top" class="tm-nav-link">
-                        <img src="./img/austellung.jpg" alt="austellung">
-                        <p><br>Hier findest du meine bisherigen und aktuellen Austellungen. Momentan sind meine Bilder beim Optiker in Bonn-Duisdorf zu sehen.</p>
-                       
-                    </a>
-                </li>
-                <li class="tm-nav-item">
-                    <p>Kontakt & Preise</p>
-                    <a href="#contact" data-effect="mfp-move-from-top" class="tm-nav-link">
-                   <img src="./img/hands.jpg" alt="hands">
-                   <p><br>Wenn ihr Interesse an meiner Arbeit, an einem meiner Bildern oder sonstige Fragen habt, kontaktiert mich gerne hier.  </p>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-
-        <!-- Popup itself -->
-        <div id="intro" class="popup mfp-with-anim mfp-hide tm-bg-gray">
-            <a href="#" class="tm-close-popup">
-                zurück
-                <i class="fas fa-times"></i>
+      <p id="zitat">
+        "Jedes Kind ist ein Künstler. Das Problem ist nur, ein Künstler zu
+        bleiben, während man erwachsen wird." <br />
+        -Pablo Picasso
+      </p>
+      <nav class="tm-main-nav">
+        <ul id="inline-popups">
+          <li class="tm-nav-item">
+            <p>Über mich</p>
+            <a
+              href="#intro"
+              data-effect="mfp-move-from-top"
+              class="tm-nav-link"
+            >
+              <img src="./img/gisela-streich.jpg" alt="about" />
+              <p>
+                <br />Warum ich male und immer wieder neue Stile ausprobiere?
+                Hier erfährst du etwas über mich und meinen künstlerischen
+                Werdegang.
+              </p>
             </a>
-            <div class="tm-row tm-intro-row">
-                <img src="img/gise-bild-about-small.jpg" alt="Image" class="tm-intro-img">
-                <div class="tm-col tm-bg-rose tm-intro-pad">
-                    <h2 class="tm-color-primary tm-page-title">Meine Kunst und ich...</h2>
-                    <div class="tm-row tm-content-row">
-                        <div class="tm-col-6 tm-intro-col-l">
-                        
-                            <p>
-                                Malen und Zeichnen war  mir schon immer ein Bedürfnis und erfreut mich leidenschaftlich auf vielfältige Art und Weise.
-                            </p>
-                            <p>Mein Fokus liegt dabei auf dem Experiment, da mich die unendlichen Möglichkeiten, Farben und Untergründe einzusetzen faszinieren, zumal die Ergebnisse oft nicht vorauszusehen sind. </p>
-                            <p>Der Kreativität sind keine Grenzen gesetzt. Jede Technik hat ihre Eigenarten, stellt und bietet Herausforderungen, die ich zu meistern oder zumindest anzupacken versuche. </p>
-
-                             <p class="tm-mb-0">Dazu gehört eine gehörige Portion Neugier und Mut, wobei mir meine Erfahrung zeigt, dass es sich lohnt anzufangen, auszuprobieren, zu verändern, bis mir das Ergebnis gefällt.  
-                        </div>
-                        
-                        <div class="tm-col-6">
-                            <p>Mein Ziel ist nicht nur der Weg, das Tun, sondern auch die Umsetzung von Natur, Landschaft, Gesichtern und anderen Motiven in meine Darstellungsweise, bei der mein eigener lockerer und meist dynamischer Stil sichtbar wird. </p>   
-                            
-                            <p class="tm-mb-80">Ich versuche Stimmungen festzuhalten, ihnen Ausdruck zu verleihen und den Betrachter daran teilhaben zu lassen und gebe bei jedem Bild ein Stück von mir preis. 
-                                <br><br>
-                           Mit dieser, von meiner Tochter Natalie liebevoll gestalteten Homepage, kann ich meine Bilder einem interessierten Publikum präsentieren.</p>
-                            
-
-                            <div class="tm-text-center">
-                                <a href="#" class="tm-btn tm-btn-primary mfp-prevent-close tm-btn-next">
-                                    Zur Galerie
-                                </a>
-                            </div>                            
-                        </div>
-                    </div>
-                </div>                
-            </div> 
-        </div>
-
-        
-        <div id="gallery" class="popup mfp-with-anim mfp-hide tm-bg-rose">
-            <a href="#" class="tm-close-popup">
-                zurück
-                <i class="fas fa-times"></i>
+          </li>
+          <li class="tm-nav-item">
+            <p>Galerie</p>
+            <a
+              href="#gallery"
+              data-effect="mfp-move-from-top"
+              class="tm-nav-link"
+              id="tm-gallery-link"
+            >
+              <img src="./img/blumen.png" alt="akt" />
+              <p>
+                <br />In der neuen Galerie findest du meine Werke aus
+                veschiedenen Rubriken wie z.B. Menschen, Landschaft und
+                Abstrakt.
+              </p>
             </a>
-            <div class="tm-row tm-gallery-row">
-                <div class="tm-gallery">
-
-                    <div class="tm-gallery-container" id="galleryContainer">                        
-                        
-                <!-- Gallery aus sheet: https://docs.google.com/spreadsheets/d/1zLUp-zc3MEn845mynUHoCBDPKeGPF7IGL_cC2pZ8gOI/edit?usp=drive_web&ouid=112523859418072233203 -->
-
-                      
-                    </div>
-                </div>
-
-                <!-- Gallery navigation and description -->
-                <div class="tm-col tm-gallery-right">
-                    <h2 class="tm-color-primary tm-mt-35 tm-page-title">Galerie</h2>
-                    <div class="tm-gallery-right-inner">
-                        <ul class="tm-gallery-links">
-                            <li>
-                                <a href="#" class="active tm-gallery-link" data-filter="*">
-                                    <i class="fas fa-layer-group tm-gallery-link-icon"></i>
-                                    Alle
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="tm-gallery-link" data-filter="abstrakt">
-                                    <i class="fab fa-artstation tm-gallery-link-icon"></i>
-                                    Abstrakt
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="tm-gallery-link" data-filter="gesichter">
-                                    <i class="fas fa-user-circle tm-gallery-link-icon"></i>
-                                    Gesichter
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="tm-gallery-link" data-filter="landschaft">
-                                    <i class="fas fa-tree tm-gallery-link-icon"></i>
-                                    Landschaft
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="tm-gallery-link" data-filter="menschen">
-                                    <i class="fas fa-portrait tm-gallery-link-icon"></i>
-                                    Menschen & Akt
-                                </a>
-                            </li>
-                           
-                            <li>
-                                <a href="#" class="tm-gallery-link" data-filter="pflanzen">
-                                    <i class="fas fa-leaf tm-gallery-link-icon"></i>
-                                    Pflanzen & Blumen
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#" class="tm-gallery-link" data-filter="stillleben">
-                                    <i class="fas fa-apple-alt tm-gallery-link-icon"></i>
-                                    Stilleben
-                                </a>
-                            </li>
-                        </ul>
-                        <p>
-                            Das Zeichnen und Malen mit verschiedenen Farben, Materialen und Pinselns hat etwas sehr Ursprüngliches. 
-                        </p>
-                        <p>
-                            Ich finde es faszinierend, die Möglichkeiten zu entdecken, unterschiedliche Techniken auszuprobieren und die Wirkungen zu betrachten. 
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div id="testimonials" class="popup mfp-with-anim mfp-hide tm-bg-rose">
-            <a href="#" class="tm-close-popup">
-                zurück
-                <i class="fas fa-times"></i>
+          </li>
+          <li class="tm-nav-item">
+            <p>Aktuelles</p>
+            <a
+              href="#testimonials"
+              data-effect="mfp-move-from-top"
+              class="tm-nav-link"
+            >
+              <img src="./img/update.jpg" alt="update" />
+              <p>
+                <br />Hier ist sie, meine neue Homepage. Außerdem gibt es gibt
+                es wieder neue Bilder zu sehen und ich stelle mit den
+                Montagsmalerinnen wieder aus!
+              </p>
             </a>
-            <div class="tm-testimonials-inner">
-                <h2 class="tm-color-gray tm-testimonial-col tm-page-title">Aktuelles</h2>
-                <div class="tm-row tm-testimonial-row">                
-                    <div class="tm-col tm-testimonial-col">
-                        <p><i class="fas fa-arrow-circle-right"></i>
-                            Jetzt im Monat November präsentiert  <a target="_blank" href="https://www.kafarnik.de/">Optik Karfarnik</a> in Bonn-Duisdorf fünf meiner großen Acrylbilder im Schaufenster! 
-                            <span class="tm-font-color-darkrose">Sie sind ein echter "Hingucker".</span>
-                        </p>
-                        
-                          
-                        </em>
-                        <p><i class="fas fa-arrow-circle-right"></i>
-                            In Coronazeiten sind Ideen gefragt: auf der Seite des Kulturkreises Alfter gibt es eine virtuelle Ausstellung von Werken verschiedener Künstler zu sehen. Mittlerweile ist schon der 2. Teil online. Es lohnt sich, mal reinzuschauen: <a target="_blank" href="www.kulturkreis-alfter.de">www.kulturkreis-alfter.de</a> 
-                        </p>
-
-                        <p> <i class="fas fa-arrow-circle-right"></i>
-                            Endlich gibt es wieder neue Bilder zu sehen: in den Galerien "Gesichter" und "Landschaften" könnt ihr aktuell eingestellte Werke finden. 
-                        </p>
-                        
-                    </div>
-                    <div class="tm-col tm-testimonial-col tm-testimonial-col-2">
-                        <img src="img/montagsmalerinnen_corona.jpg" alt="Image" class="tm-mb-30">
-                        <blockquote>
-                            <p> <i class="fas fa-arrow-circle-right"></i>
-                                <span class="tm-font-color-darkrose">"Der Corona-Pandemie trotzen! Montagsmalerinnen malen draußen!" </span> Lockdown ade. Ab jetzt wird wieder draußen gemalt! Natürlich immer wieder montags. Bei den sommerlichen Temperaturen malen wir vor der Impekovener Pfarrkirche und vor dem Alfterer Schloss. 
-                                <a target="_blank" href="https://www.rheinische-anzeigenblaetter.de/mein-blatt/schaufenster-bonn/alfter/der-corona-pandemie-trotzen-montagsmalerinnen-malen-draussen-37052946">Hier findet ihr einen Artikel darüber.</a>  
-
-                            </p>
-                        </blockquote>
-                        
-                        <div class="tm-text-center">
-                            <a href="#gallery" class="tm-btn tm-btn-primary mfp-prevent-close tm-btn-next">
-                                Zu den Austellungen
-                            </a>
-                        </div>                 
-                    </div>
-                    <div class="tm-col tm-testimonial-col tm-testimonial-col-2">
-                        <p> <i class="fas fa-arrow-circle-right"></i>
-                            Ihr seid hier übrigens auf meiner neuen Homepage, designed und programmiert von meiner Tochter Natalie. Falls ihr auch eine Homepage möchtet, könnt ihr sie gerne anschreiben: 
-                            <a target="_blank" href="https://www.streichzeit.xyz/">www.streichzeit.xyz
-                            <img src="img/schiffchen.png" alt="schiffchen" width="50px" target="_blank"></a> 
-                        </p>
-                        <p>
-                            Viel Spaß beim Durchstöbern meiner Homepage und natürlich der Galerie...
-                        </p>
-                       
-                        <img src="img/Galerie_Screenshot.png" alt="Image" class="tm-mt-35">
-                    </div>
-                </div>
-            </div>            
-        </div>
-
-        <div id="about" class="popup mfp-with-anim mfp-hide tm-bg-rose">
-            <a href="#" class="tm-close-popup">
-                zurück
-                <i class="fas fa-times"></i>
+          </li>
+          <li class="tm-nav-item">
+            <p>Austellungen</p>
+            <a
+              href="#about"
+              data-effect="mfp-move-from-top"
+              class="tm-nav-link"
+            >
+              <img src="./img/austellung.jpg" alt="austellung" />
+              <p>
+                <br />Hier findest du meine bisherigen und aktuellen
+                Austellungen. Momentan sind meine Bilder beim Optiker in
+                Bonn-Duisdorf zu sehen.
+              </p>
             </a>
-            <h2 class="tm-color-primary tm-about-col tm-mb-40 tm-page-title">Meine Austellungen</h2>
-            <div class="tm-row tm-about-row">
-                <div class="tm-col tm-about-col tm-about-left">                    
-                    <img src="img/austellung_unverpakt.jpg" alt="Image" class="tm-mb-30">
-                    <p class="tm-mb-40">
-                        Hier findest du eine Auswahl von stattgefundenen und aktuellen Austellungen meiner Werke:
-                    </p>
-                    <p class="tm-mb-40">
-                        &#8226; 12/2020: Virtuelle Ausstellung der ART Alfter Teil 3
-                        <br>
-                        <br>
-                        &#8226; 11/2020: Schaufenster bei Optik Karafnik in Bonn-Duisdorf
-                        <br>
-                        <br>
-                        &#8226; 08/2020: Virtuelle Ausstellung der ART Alfter Teil 2
-                    </p>
-                </div>
-                <div class="tm-col tm-about-col">
-                    <p class="tm-mb-40">
-                        &#8226; 02/2020 "Natur und Farben": Austellung der MontagsmalerInnen im Trimbornhof in Bornheim-Rösberg
-                        <br>
-                        <br>
-                        &#8226;
-                        12/2019: Mein Stand auf dem Künstler- und Handwerkermarkt im Rathaus in Alter-Oedekoven
-                        <br>
-                        <br>
-                        &#8226; 10/2019: Natur und Abstraktion" - Einzelausstellung im Café mittendrin in Köln-Dünnwald
-                        <br>
-                        <br>
-                        &#8226; 2018/2019:		Gemeinschaftsausstellungen der  MontagsmalerInnen Rathaus Alfter-Oedekoven
-                        <br>
-                        <br>
-                        &#8226; 2017: Einzelausstellungen „Frühlingserwachen“ und „Blaue Bilder“ Wasserturm Bornheim
-                        
-                    </p>
-                   
-                    <p class="tm-mb-40">
-                       Wenn du gerne ein paar meiner Bilder ausstellen oder sie für deine Räumlichkeiten leihen möchtest, nimm bitte Kontakt zu mir auf.  
+          </li>
+          <li class="tm-nav-item">
+            <p>Kontakt & Preise</p>
+            <a
+              href="#contact"
+              data-effect="mfp-move-from-top"
+              class="tm-nav-link"
+            >
+              <img src="./img/hands.jpg" alt="hands" />
+              <p>
+                <br />Wenn ihr Interesse an meiner Arbeit, an einem meiner
+                Bildern oder sonstige Fragen habt, kontaktiert mich gerne hier.
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Popup itself -->
+      <div id="intro" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+        <a href="#" class="tm-close-popup">
+          zurück
+          <i class="fas fa-times"></i>
+        </a>
+        <div class="tm-row tm-intro-row">
+          <img
+            src="img/gise-bild-about-small.jpg"
+            alt="Image"
+            class="tm-intro-img"
+          />
+          <div class="tm-col tm-bg-rose tm-intro-pad">
+            <h2 class="tm-color-primary tm-page-title">
+              Meine Kunst und ich...
+            </h2>
+            <div class="tm-row tm-content-row">
+              <div class="tm-col-6 tm-intro-col-l">
+                <p>
+                  Malen und Zeichnen war mir schon immer ein Bedürfnis und
+                  erfreut mich leidenschaftlich auf vielfältige Art und Weise.
                 </p>
-                    <a href="#" class="tm-btn tm-btn-primary mfp-prevent-close tm-btn-contact tm-mb-40">
-                        Kontakt
-                    </a>
-                </div>               
+                <p>
+                  Mein Fokus liegt dabei auf dem Experiment, da mich die
+                  unendlichen Möglichkeiten, Farben und Untergründe einzusetzen
+                  faszinieren, zumal die Ergebnisse oft nicht vorauszusehen
+                  sind.
+                </p>
+                <p>
+                  Der Kreativität sind keine Grenzen gesetzt. Jede Technik hat
+                  ihre Eigenarten, stellt und bietet Herausforderungen, die ich
+                  zu meistern oder zumindest anzupacken versuche.
+                </p>
+
+                <p class="tm-mb-0">
+                  Dazu gehört eine gehörige Portion Neugier und Mut, wobei mir
+                  meine Erfahrung zeigt, dass es sich lohnt anzufangen,
+                  auszuprobieren, zu verändern, bis mir das Ergebnis gefällt.
+                </p>
+              </div>
+
+              <div class="tm-col-6">
+                <p>
+                  Mein Ziel ist nicht nur der Weg, das Tun, sondern auch die
+                  Umsetzung von Natur, Landschaft, Gesichtern und anderen
+                  Motiven in meine Darstellungsweise, bei der mein eigener
+                  lockerer und meist dynamischer Stil sichtbar wird.
+                </p>
+
+                <p class="tm-mb-80">
+                  Ich versuche Stimmungen festzuhalten, ihnen Ausdruck zu
+                  verleihen und den Betrachter daran teilhaben zu lassen und
+                  gebe bei jedem Bild ein Stück von mir preis. <br /><br />
+                  Mit dieser, von meiner Tochter Natalie liebevoll gestalteten
+                  Homepage, kann ich meine Bilder einem interessierten Publikum
+                  präsentieren.
+                </p>
+
+                <div class="tm-text-center">
+                  <a
+                    href="#"
+                    class="tm-btn tm-btn-primary mfp-prevent-close tm-btn-next"
+                  >
+                    Zur Galerie
+                  </a>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div id="contact" class="popup mfp-with-anim mfp-hide tm-bg-gray">
-            <a href="#" class="tm-close-popup">
-                zurück
-                <i class="fas fa-times"></i>
+      <div id="gallery" class="popup mfp-with-anim mfp-hide tm-bg-rose">
+        <a href="#" class="tm-close-popup">
+          zurück
+          <i class="fas fa-times"></i>
+        </a>
+        <div class="tm-row tm-gallery-row">
+          <div class="tm-gallery">
+            <div class="tm-gallery-container" id="galleryContainer">
+              <!-- Gallery aus sheet: https://docs.google.com/spreadsheets/d/1zLUp-zc3MEn845mynUHoCBDPKeGPF7IGL_cC2pZ8gOI/edit?usp=drive_web&ouid=112523859418072233203 -->
+            </div>
+          </div>
+
+          <!-- Gallery navigation and description -->
+          <div class="tm-col tm-gallery-right">
+            <h2 class="tm-color-primary tm-mt-35 tm-page-title">Galerie</h2>
+            <div class="tm-gallery-right-inner">
+              <ul class="tm-gallery-links">
+                <li>
+                  <a href="#" class="active tm-gallery-link" data-filter="*">
+                    <i class="fas fa-layer-group tm-gallery-link-icon"></i>
+                    Alle
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="tm-gallery-link" data-filter="abstrakt">
+                    <i class="fab fa-artstation tm-gallery-link-icon"></i>
+                    Abstrakt
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="tm-gallery-link" data-filter="gesichter">
+                    <i class="fas fa-user-circle tm-gallery-link-icon"></i>
+                    Gesichter
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="tm-gallery-link" data-filter="landschaft">
+                    <i class="fas fa-tree tm-gallery-link-icon"></i>
+                    Landschaft
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="tm-gallery-link" data-filter="menschen">
+                    <i class="fas fa-portrait tm-gallery-link-icon"></i>
+                    Menschen & Akt
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="tm-gallery-link" data-filter="pflanzen">
+                    <i class="fas fa-leaf tm-gallery-link-icon"></i>
+                    Pflanzen & Blumen
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="tm-gallery-link" data-filter="stillleben">
+                    <i class="fas fa-apple-alt tm-gallery-link-icon"></i>
+                    Stilleben
+                  </a>
+                </li>
+              </ul>
+              <p>
+                Das Zeichnen und Malen mit verschiedenen Farben, Materialen und
+                Pinselns hat etwas sehr Ursprüngliches.
+              </p>
+              <p>
+                Ich finde es faszinierend, die Möglichkeiten zu entdecken,
+                unterschiedliche Techniken auszuprobieren und die Wirkungen zu
+                betrachten.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="testimonials" class="popup mfp-with-anim mfp-hide tm-bg-rose">
+        <a href="#" class="tm-close-popup">
+          zurück
+          <i class="fas fa-times"></i>
+        </a>
+        <div class="tm-testimonials-inner">
+          <h2 class="tm-color-gray tm-testimonial-col tm-page-title">
+            Aktuelles
+          </h2>
+          <div class="tm-row tm-testimonial-row">
+            <div class="tm-col tm-testimonial-col">
+              <p>
+                <i class="fas fa-arrow-circle-right"></i> Jetzt im Monat
+                November präsentiert
+                <a target="_blank" href="https://www.kafarnik.de/"
+                  >Optik Karfarnik</a
+                >
+                in Bonn-Duisdorf fünf meiner großen Acrylbilder im Schaufenster!
+                <span class="tm-font-color-darkrose"
+                  >Sie sind ein echter "Hingucker".</span
+                >
+              </p>
+
+              <p>
+                <i class="fas fa-arrow-circle-right"></i> In Coronazeiten sind
+                Ideen gefragt: auf der Seite des Kulturkreises Alfter gibt es
+                eine virtuelle Ausstellung von Werken verschiedener Künstler zu
+                sehen. Mittlerweile ist schon der 2. Teil online. Es lohnt sich,
+                mal reinzuschauen:
+                <a target="_blank" href="www.kulturkreis-alfter.de"
+                  >www.kulturkreis-alfter.de</a
+                >
+              </p>
+
+              <p>
+                <i class="fas fa-arrow-circle-right"></i>
+                Endlich gibt es wieder neue Bilder zu sehen: in den Galerien
+                "Gesichter" und "Landschaften" könnt ihr aktuell eingestellte
+                Werke finden.
+              </p>
+            </div>
+            <div class="tm-col tm-testimonial-col tm-testimonial-col-2">
+              <img
+                src="img/montagsmalerinnen_corona.jpg"
+                alt="Image"
+                class="tm-mb-30"
+              />
+              <blockquote>
+                <p>
+                  <i class="fas fa-arrow-circle-right"></i>
+                  <span class="tm-font-color-darkrose"
+                    >"Der Corona-Pandemie trotzen! Montagsmalerinnen malen
+                    draußen!"
+                  </span>
+                  Lockdown ade. Ab jetzt wird wieder draußen gemalt! Natürlich
+                  immer wieder montags. Bei den sommerlichen Temperaturen malen
+                  wir vor der Impekovener Pfarrkirche und vor dem Alfterer
+                  Schloss.
+                  <a
+                    target="_blank"
+                    href="https://www.rheinische-anzeigenblaetter.de/mein-blatt/schaufenster-bonn/alfter/der-corona-pandemie-trotzen-montagsmalerinnen-malen-draussen-37052946"
+                    >Hier findet ihr einen Artikel darüber.</a
+                  >
+                </p>
+              </blockquote>
+
+              <div class="tm-text-center">
+                <a
+                  href="#gallery"
+                  class="tm-btn tm-btn-primary mfp-prevent-close tm-btn-next"
+                >
+                  Zu den Austellungen
+                </a>
+              </div>
+            </div>
+            <div class="tm-col tm-testimonial-col tm-testimonial-col-2">
+              <p>
+                <i class="fas fa-arrow-circle-right"></i>
+                Ihr seid hier übrigens auf meiner neuen Homepage, designed und
+                programmiert von meiner Tochter Natalie. Falls ihr auch eine
+                Homepage möchtet, könnt ihr sie gerne anschreiben:
+                <a target="_blank" href="https://www.streichzeit.xyz/"
+                  >www.streichzeit.xyz
+                  <img
+                    src="img/schiffchen.png"
+                    alt="schiffchen"
+                    width="50px"
+                    target="_blank"
+                /></a>
+              </p>
+              <p>
+                Viel Spaß beim Durchstöbern meiner Homepage und natürlich der
+                Galerie...
+              </p>
+
+              <img
+                src="img/Galerie_Screenshot.png"
+                alt="Image"
+                class="tm-mt-35"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="about" class="popup mfp-with-anim mfp-hide tm-bg-rose">
+        <a href="#" class="tm-close-popup">
+          zurück
+          <i class="fas fa-times"></i>
+        </a>
+        <h2 class="tm-color-primary tm-about-col tm-mb-40 tm-page-title">
+          Meine Austellungen
+        </h2>
+        <div class="tm-row tm-about-row">
+          <div class="tm-col tm-about-col tm-about-left">
+            <img
+              src="img/austellung_unverpakt.jpg"
+              alt="Image"
+              class="tm-mb-30"
+            />
+            <p class="tm-mb-40">
+              Hier findest du eine Auswahl von stattgefundenen und aktuellen
+              Austellungen meiner Werke:
+            </p>
+            <p class="tm-mb-40">
+              &#8226; 12/2020: Virtuelle Ausstellung der ART Alfter Teil 3
+              <br />
+              <br />
+              &#8226; 11/2020: Schaufenster bei Optik Karafnik in Bonn-Duisdorf
+              <br />
+              <br />
+              &#8226; 08/2020: Virtuelle Ausstellung der ART Alfter Teil 2
+            </p>
+          </div>
+          <div class="tm-col tm-about-col">
+            <p class="tm-mb-40">
+              &#8226; 02/2020 "Natur und Farben": Austellung der
+              MontagsmalerInnen im Trimbornhof in Bornheim-Rösberg
+              <br />
+              <br />
+              &#8226; 12/2019: Mein Stand auf dem Künstler- und Handwerkermarkt
+              im Rathaus in Alter-Oedekoven
+              <br />
+              <br />
+              &#8226; 10/2019: Natur und Abstraktion" - Einzelausstellung im
+              Café mittendrin in Köln-Dünnwald
+              <br />
+              <br />
+              &#8226; 2018/2019: Gemeinschaftsausstellungen der
+              MontagsmalerInnen Rathaus Alfter-Oedekoven
+              <br />
+              <br />
+              &#8226; 2017: Einzelausstellungen „Frühlingserwachen“ und „Blaue
+              Bilder“ Wasserturm Bornheim
+            </p>
+
+            <p class="tm-mb-40">
+              Wenn du gerne ein paar meiner Bilder ausstellen oder sie für deine
+              Räumlichkeiten leihen möchtest, nimm bitte Kontakt zu mir auf.
+            </p>
+            <a
+              href="#"
+              class="tm-btn tm-btn-primary mfp-prevent-close tm-btn-contact tm-mb-40"
+            >
+              Kontakt
             </a>
-            <div class="tm-row tm-intro-row">
-                <img src="img/contact.jpg" alt="Image" class="tm-contact-img">
-                <div class="tm-col tm-bg-rose tm-intro-pad">
-                    <h2 class="tm-color-primary tm-page-title">Kontakt und Preise</h2>
-                    <div class="tm-row tm-content-row">
-                        <div class="tm-col-6 tm-intro-col-l">
-                        
-                            <p>Wenn euch meine Bilder gefallen und ihr Interesse habt, eines oder mehrere zu erwerben, kontaktiert mich gerne per email. Preise auf Anfrage. </p>
-                            
-                            <p>Meine Bilder stelle ich auch als Leihgabe zur Austellung in z.B. Büros, Schaufenstern, Artzpraxen etc. zur Verfügung. Dauer und weitere Infos gerne auf Anfrage.  </p> 
-
-                            <p class="tm-mb-0">Meine Bilder stelle ich auch als Leihgabe zur Austellung in z.B. Büros, Schaufenstern, Artzpraxen etc. zur Verfügung. Dauer und weitere Infos gerne auf Anfrage.  </p> 
-                        </div>
-
-                        <div class="tm-col-6">
-                            <p>Sollte sich ein Bild nicht mehr in meinem Besitz befinden, bin ich gerne bereit als Auftragsarbeit ein ähnliches zu erstellen. Bei allen weiteren Fragen, sagt einfach bescheid. 
-                            </p>
-
-                            <p>Ich freue mich über Anfragen.</p>
-                            <p>Gisela Streich <br> 
-                                <a href="mailto:hallo@giselarts.xyz">hallo@giselarts.xyz </a><br> 
-                                Tel. 0228 4107946</p>
-                                <br>
-                                <br>
-                                                      
-                        </div>
-                    </div>
-                </div>                
-            </div> 
+          </div>
         </div>
+      </div>
+
+      <div id="contact" class="popup mfp-with-anim mfp-hide tm-bg-gray">
+        <a href="#" class="tm-close-popup">
+          zurück
+          <i class="fas fa-times"></i>
+        </a>
+        <div class="tm-row tm-intro-row">
+          <img src="img/contact.jpg" alt="Image" class="tm-contact-img" />
+          <div class="tm-col tm-bg-rose tm-intro-pad">
+            <h2 class="tm-color-primary tm-page-title">Kontakt und Preise</h2>
+            <div class="tm-row tm-content-row">
+              <div class="tm-col-6 tm-intro-col-l">
+                <p>
+                  Wenn euch meine Bilder gefallen und ihr Interesse habt, eines
+                  oder mehrere zu erwerben, kontaktiert mich gerne per email.
+                  Preise auf Anfrage.
+                </p>
+
+              
+                <p class="tm-mb-0">
+                  Meine Bilder stelle ich auch als Leihgabe zur Austellung in
+                  z.B. Büros, Schaufenstern, Artzpraxen etc. zur Verfügung.
+                  Dauer und weitere Infos klären wir dann gemeinsam.
+                </p>
+              </div>
+
+              <div class="tm-col-6">
+                <p>
+                  Sollte sich ein Bild nicht mehr in meinem Besitz befinden, bin
+                  ich gerne bereit als Auftragsarbeit ein ähnliches zu
+                  erstellen. Bei allen weiteren Fragen, sagt einfach bescheid.
+                </p>
+
+                <p>Ich freue mich über Anfragen.</p>
+                <p>
+                  Gisela Streich <br />
+                  <a href="mailto:hallo@giselarts.xyz">hallo@giselarts.xyz </a
+                  ><br />
+                  Tel. 0228 4107946
+                </p>
+                <br />
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="tm-footer">
-        <span>Copyright &copy; 2020 Giselarts</span>
-        <span>Web Designed by 
-        <a href="https://streichzeit.xyz" title="streichzeit" target="_parent" rel="nofollow">Streichzeit
-        <img src="./img/schiffchen.png" alt="logo-streichzeit" width="40px"></a></span>
-        <a href="impressum.html" target="_parent"><span>
-            Impressum</span></a>
-</footer>
+      <span>Copyright &copy; 2020 Giselarts</span>
+      <span
+        >Web Designed by
+        <a
+          href="https://streichzeit.xyz"
+          title="streichzeit"
+          target="_parent"
+          rel="nofollow"
+          >Streichzeit
+          <img
+            src="./img/schiffchen.png"
+            alt="logo-streichzeit"
+            width="40px" /></a
+      ></span>
+      <a href="impressum.html" target="_parent"><span> Impressum</span></a>
+    </footer>
 
-<script src="/path/to/cdn/jquery.min.js"></script>
-<script src="/path/to/jquery.modal.js"></script>
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/imagesloaded.pkgd.min.js"></script>
-<script src="js/isotope.pkgd.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>    
-<script src="js/templatemo-script.js"></script>
-<script src="https://unpkg.com/get-sheet-done@0.1.5/dist/GetSheetDone.js"></script> 
+    <div id="modal" onclick="hideModal()">
+      <img src="" alt="" />
+    </div>
 
-<script src="jquery.lightbox.js"></script>
+    <script src="/path/to/cdn/jquery.min.js"></script>
+    <script src="/path/to/jquery.modal.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/templatemo-script.js"></script>
+    <script src="https://unpkg.com/get-sheet-done@0.1.5/dist/GetSheetDone.js"></script>
 
-</body>
+    <script src="jquery.lightbox.js"></script>
+
+    <script>
+      function showModal(imageLink, imageCaption) {
+        document.getElementById("modal").classList.add("modal-show");
+
+        document.getElementById("modal").innerHTML = `
+              <img src="${imageLink}" alt="${imageCaption}" >
+              <p>${imageCaption}</p>
+              `;
+      }
+
+      // Hide Modal if clicked anywhere
+      function hideModal() {
+        document.getElementById("modal").classList.remove("modal-show");
+      }
+
+      // Hide Modal if clicked outside image
+      //   window.onclick = function (event) {
+      //     if (event.target == document.getElementById("modal")) {
+      //       document.getElementById("modal").classList.remove("modal-show");
+      //     }
+      //   };
+    </script>
+  </body>
 </html>
