@@ -6,13 +6,16 @@ body {
   font-family: "Fira sans", sans-serif;
   font-size: 1.1em;
   line-height: 1.5em;
-  overflow-x: hidden;
+  overflow-y:hidden;
+  /* overscroll-behavior: contain;
+  overflow-x: hidden; */
   position: relative;
 }
 
-#gallery {
+/* #gallery {
   overflow: hidden;
-}
+  overscroll-behavior: contain;
+} */
 
 #modal {
   display: none;

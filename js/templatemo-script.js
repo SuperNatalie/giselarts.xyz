@@ -279,4 +279,17 @@ $(document).ready(function () {
         $(".tm-contact-img").attr("src", img);
       }
     });
+
+    //Trying to get rid of refresh on scrolling mobile
+
+    var target = document.getElementById("gallery"); // this can be any scrollable element
+var last_y = 0;
+target.addEventListener('touchmove', function(e){
+    var scrolly = target.pageYOffset || target.scrollTop || 0;
+    var direction = e.changedTouches[0].pageY > last_y ? 1 : -1;
+    if(direction>0 && scrolly===0){
+        e.preventDefault();
+    }
+    last_y = e.changedTouches[0].pageY;
+});
 });

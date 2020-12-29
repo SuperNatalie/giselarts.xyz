@@ -1,7 +1,9 @@
 # Giselarts Website
 
 My first real hosted website for an wonderful artist: My Mum! 
+
 https://supernatalie.github.io/giselarts.xyz/
+
 https://www.giselarts.xyz
 
 ## Built with

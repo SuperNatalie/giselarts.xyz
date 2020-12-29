@@ -45,7 +45,8 @@
     vertical-align: middle;
     margin: 0 auto;
     text-align: left;
-    z-index: 1045; }
+    z-index: 1045; 
+    overscroll-behavior: contain;}
   
   .mfp-inline-holder .mfp-content,
   .mfp-ajax-holder .mfp-content {
